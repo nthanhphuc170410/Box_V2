@@ -13,12 +13,16 @@
 pros::MotorGroup leftDrive({-1, 2, -3});
 pros::MotorGroup rightDrive({4, -5, 6});
 
+// Controller
+pros::Controller master(pros::E_CONTROLLER_MASTER);
+
 // roller motors
 pros::Motor motorRoller1(17);
 pros::Motor motorRoller2(18);
 pros::Motor motorRoller3(19);
 pros::Motor motorRoller4(20);
-pros::Controller master(pros::E_CONTROLLER_MASTER);
+
+//Loaders
 pros::adi::Pneumatics matchLoader('A', false);
 pros::adi::Pneumatics armLoader('B', false);
 
