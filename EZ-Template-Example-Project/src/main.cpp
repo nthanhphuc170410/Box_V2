@@ -5,7 +5,7 @@
 #define PushMiddleMove DIGITAL_R2
 #define PushDownMove DIGITAL_L1
 #define TakeInMove DIGITAL_L2
-#define StopIntakeMove DIGITAL_B
+#define StopIntakeMove DIGITAL_X
 #define ArmLoaderAirCompressor DIGITAL_A
 #define MatchLoaderAirCompressor DIGITAL_B
 
